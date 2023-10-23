@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Home section*/
+
+.navbar {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/img\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-right: 4%;
+}
+
+.first{
+    display: flex;
+    list-style-type: none;
+    font-weight:normal;
+}
+
+.first li a {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    text-decoration: none;
+    font-size: 18px;
+    color:gainsboro;
+}
+
+.first li a:hover {
+    color:sienna;
+    transition: .4s ease;
+}
+
+.first .home {
+    text-decoration: underline 5px;
+    text-decoration-color:darkgoldenrod;
+    color: whitesmoke;
+}
+
+.first .home:hover {
+    color:gold;
+}
+
+.logo {
+    font-size: 30px;
+    cursor: pointer;
+}
+.dot{
+    color: black;
+    
+}
+.const {
+    color: gold;
+}
+
+.content {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px ;
+    margin-left: 300px;
+    border-style: ridge;
+    border-color: goldenrod;
+}
+
+.heading {
+    font-weight: bolder;
+    line-height: 70px;
+    font-size: 70px;
+    color: maroon;
+}
+
+.p1 {
+    color:white;
+}
+
+.btn{
+    padding: 14px 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid goldenrod;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+    color: ghostwhite;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+}
+
+/* Get Started section*/
+
+.get_started {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ms1 {
+    align-content: center;
+    padding: 150px 0 0 0;
+}
+
+.get_intouch {
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline sienna;
+    padding-bottom: 20px;
+    color: maroon;
+}
+
+.para1, .para2 {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.form1 {
+    background-color: gainsboro;
+    padding-left: 50px;
+    width: 35%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.form {
+    padding-top: 20px;
+}
+
+.head2 {
+    padding-bottom: 10px;
+}
+.para3 {
+    padding-bottom: 20px;
+}
+
+.form2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: -15px;
+    padding-bottom: 100px;
+}
+
+.form2 input {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: solid 1px sienna;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: medium;
+}
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    height: 100%;
+    border: solid 1px sienna;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    font-size: medium;
+}
+ input::placeholder, textarea::placeholder {
+    color: maroon;
+}
+
+button {
+    background-color: darkgoldenrod;
+    padding: 15px 25px;
+    margin-top: 10px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: medium;
+    transition: 0.5s ease;
+}
+
+button:hover {
+   background-color: transparent;
+   cursor: pointer;
+}
+
+/* Contacts Section */
+
+footer {
+    height: 70vh;
+    width: 100%;
+    padding: 80px;
+    margin-left: -20px;
+    background-image: url(images/img\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.links {
+    padding: 20px 80px; 
+    margin-left: -40px;
+    margin-right: -100px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.links1 {
+    padding: 10px;
+    color: rgb(240, 214, 70);
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.second {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.contact_sec {
+    padding: 20px; 
+    margin-left: -100px;
+    margin-bottom: 50px;
+   
+}
+
+.one {
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.last {
+    color: rgb(240, 214, 70);
+}
+
+.address {
+    padding: 20px;
+    color: white;
+    font-size: large;
+}
+
+.address2 {
+    padding: 20px;
+    color: white;
+    font-size: large;
+}
+
+.second li a {
+    display: block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.second li a:hover {
+    color: gold;
+}
+
+
+/* Copyright Section */
+
+.copyright {
+    display: inline;
+    padding-left: 500px;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
