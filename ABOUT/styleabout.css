@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: none;
+}
+
+.banner{
+background-image: linear-gradient(to right,#01052934,#010635ea),url('PICC/11.jpg');
+width: 100%;
+height: 50vh;
+background-repeat: none;
+background-position: cover;
+background-size: cover;
+}
+ .banner_content h1{
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color:bisque;
+    padding-top: 130px;
+    padding-left: 5%;
+
+    
+}
+.banner_content h1 span{
+    color:black;
+
+}
+.banner_content h2 {
+    text-align: start;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    padding-left: 11%;
+
+}
+.banner_content h2 span{
+    color:bisque;
+}
+#start{
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#start span{
+    color:black;
+    font-weight: bold;
+}
+#understart{
+    font-size: 20px;
+    text-align:center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inter{
+    width: 50%;
+    height: 50vh;
+    
+}
+.build{
+    display: flex;
+margin-top: 5%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.build_image{
+    margin-top: 1%;
+}
+.build_content h3{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.build_content p{
+color: black;
+font-size: 20px;
+display:flex;
+text-align: center;
+word-spacing: 5px;
+}
+.outside{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+ 
+}
+.outside_content h3{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+.outside_content p{
+    color: black;
+    font-size: 20px;
+    display:flex;
+    text-align: center;
+    word-spacing: 5px;
+
+}
+.material{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.material_content h3{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.material_content p{
+color: black;
+font-size: 20px;
+display:flex;
+text-align: center;
+word-spacing: 5px;
+}
+.bannerlast{
+    background-color:gray;
+    width: 100%;
+    height: 40vh;
+    background-repeat: none;
+    background-position: cover;
+    background-size: cover;
+    margin-top: -3px;
+
+    }
+     .bannerlast_content h1{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color:darkgrey;
+        padding-top: 100px;
+    
+        
+    }
+    .bannerlast_content h1 span{
+        color:bisque;
+    
+    }
+
+.safety{
+ border-radius: 40px;
+ border: 0;
+ font-size: 1.8rem;
+ font-weight: 600;
+ margin: 1rem 0;
+ padding: 1rem 1rem;
+ text-transform: uppercase;
+ white-space: nowrap;
+ cursor: pointer;
+}
+.safe_butt{
+    color: black;
+    background:darkgray;
+    border: 2px solid black;
+    margin-left: 40%;
+}
+.safe_butt:hover{
+    background:bisque;
+}
+
+
+
+.spon_content{
+    background-image:url('PICC/SPONS.png');
+    width: 50%;
+    height: 20vh;
+    background-repeat: none;
+    background-position: cover;
+    background-size: cover;
+    background-color: antiquewhite;
+    display: flex;
+    }
+    .spon_image{
+        display: flex;
+        height: 20vh;
+    }
+#sors{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.bannerlaster{
+    background-color:gray;
+    width: 100%;
+    height: 25vh;
+    background-repeat: none;
+    background-position: cover;
+    background-size: cover;
+    margin-top: 0px;
+
+    }
+     .bannerlaster_content h1{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        color:bisque;
+        padding-top: 50px;
+    
+        
+    }
+    .bannerlaster_content h1 span{
+        color:darkgrey;
+    
+    }
+    
+        #letsgo{
+            text-align: center;
+            font-size: 30px;
+        }
+        #looo{
+        display: block;
+        }
+        #lll{
+           padding-top: 10px;
+        }
